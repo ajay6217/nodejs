@@ -1,0 +1,39 @@
+extends base.pug 
+
+ 
+  
+block style 
+  style
+      include style.css
+block content 
+    
+    section#introSection 
+        div WELCOME
+        div This is my dance website
+    section#mission 
+        h3 Our mission 
+        div.card.c1
+          h5 Dance perfection  
+            div.card-box 
+               div.card-img 
+                  img(src="../static/c1.png")
+               p this is my website      
+        div.card.c2
+          h5 Dance the way you go
+           div.card-box 
+               div.card-img 
+                  img(src="../static/c2.png")  
+               p this is my website    
+        div.card 
+          h5 Any body can dance 
+           div.card-box 
+               div.card-img 
+                  img(src="../static/c3.png")
+               p this is my website                
+    section#sponsorsSection 
+        h3 our sponsors
+        div#sp 
+         img(src="../static/s1.png", alt="sponsor image",class="spimage")
+         img(src="../static/s21.png", alt="sponsor image",class="spimage")
+         img(src="../static/s3.png", alt="sponsor image",class="spimage")
+         img(src="../static/s2.png", alt="sponsor image",class="spimage")         

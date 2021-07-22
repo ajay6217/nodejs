@@ -1,0 +1,11 @@
+npm init
+npm install express
+npm install pug
+npm install body-parser
+npm init
+npm install express
+npm install mongoose
+mongod
+mongo
+use ajaykart
+show collections
